@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jqueries</title>
+</head>
+<body>
+	<input type="button" id="b1"value="show">
+	<input type="button" id="b2"value="hide">  
+	
+	
+	<img src=https://i.ytimg.com/vi/gD4uACwPChA/maxresdefault.jpg>
+
+<script src ="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script>
+$(document).ready(function()
+{
+	$("#b1").click(function()
+
+	{
+	 $("img").showUp(3000);
+	});
+
+	$("#b2").click(function()
+
+	{
+	 $("img").showDown(3000);
+
+	});
+
+});
+</script>
+</body>
+</html>
